@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.global{
+    display: grid;
+    grid-template-columns: 90% 10%;
+}
+
+.progress-bar{
+    position: fixed;
+    width: 100%;
+    height: 10px;
+}
+
+.progress{
+    width: 0%;
+    height: 100%;
+    background-color: white;
+}
+
+.sect{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+    justify-items: center;
+    align-items: center;
+}
+
+.sect img{
+    width: 60%;
+}
+
+.sect h2{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.sect p{
+    line-height: 1.5em;
+    margin-bottom: 10px;
+}
+
+.sect a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    cursor: url(../img/train-mouse.svg), auto;
+}
+
+#sec1{
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+#sec2{
+    background-image: linear-gradient(-225deg, #CBBACC 0%, #2580B3 100%);
+}
+#sec3{
+    background-image: linear-gradient(-225deg, #7742B2 0%, #F180FF 52%, #FD8BD9 100%);
+}
+
+.control{
+    display: grid;
+    justify-items: center;
+    background-color: #C689C6;
+}
+
+.control a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.sub-control{
+    display: grid;
+    position: fixed;
+    margin: 50px 0;
+}
+
+
+
+button.personaje{
+    background: none;
+    border: 0;
+    font-size: 30px;
+    color: white;
+    position: fixed;
+}
